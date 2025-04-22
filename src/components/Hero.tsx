@@ -1,5 +1,8 @@
+
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
+
 const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center pt-16 bg-gradient-to-b from-white to-data-lightGray">
       <div className="section-container">
@@ -25,6 +28,12 @@ const Hero = () => {
               </Button>
               <Button asChild variant="outline" className="border-data-blue text-data-blue hover:bg-data-blue/10">
                 <a href="#contact">Contact Me</a>
+              </Button>
+              <Button asChild variant="outline" className="border-data-blue text-data-blue hover:bg-data-blue/10">
+                <a href="/prasath_cv.pdf" download className="flex items-center gap-2">
+                  <Download className="h-4 w-4" />
+                  <span>Download CV</span>
+                </a>
               </Button>
             </div>
           </motion.div>
