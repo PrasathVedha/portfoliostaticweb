@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 const About = () => {
   return <section id="about" className="py-20 bg-white">
@@ -97,23 +98,12 @@ const About = () => {
             </div>
             <div className="flex flex-col md:flex-row md:items-center justify-between">
               <div>
-                <h4 className="font-medium">Dr. Raju Davis International School, Kerala</h4>
-                <p className="text-gray-600">Senior secondary - Percentage: 93.4%</p>
+                <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
+                <p className="text-gray-600">Senior secondary - Percentage: 93.4%</p>
               </div>
               <div className="text-gray-500 mt-1 md:mt-0">
                 <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                  2020 - 2022
-                </span>
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row md:items-center justify-between">
-              <div>
-                <h4 className="font-medium">Shree Sai Vidya Peedhom, Kerala</h4>
-                <p className="text-gray-600">Secondary - Percentage: 93.4%                                                                       </p>
-              </div>
-              <div className="text-gray-500 mt-1 md:mt-0">
-                <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                  2019 - 2020
+                  2019 - 2022
                 </span>
               </div>
             </div>
