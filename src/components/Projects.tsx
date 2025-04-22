@@ -26,7 +26,8 @@ const projects = [{
   description: 'A simple web application that allows users to upload files to secure cloud storage and download them.',
   technologies: ['AWS S3', 'HTML'],
   points: ['Developed a web application for secure file storage', 'Enabled interaction with AWS S3 cloud storage services', 'Implemented dynamic web page for data uploading and retrieval'],
-  image: <AnimatedCloud />
+  image: <AnimatedCloud />,
+  repoLink: 'https://github.com/PrasathVedha?tab=repositories'
 }, {
   id: 2,
   title: 'Sudoku Solver',
@@ -34,7 +35,8 @@ const projects = [{
   description: 'A Python program using backtracking algorithm to solve Sudoku puzzles.',
   technologies: ['Python', 'Backtracking Algorithm'],
   points: ['Developed a powerful Python program for solving Sudoku puzzles', 'Implemented backtracking algorithm for puzzle solving', 'Handles any standard Sudoku puzzle efficiently', 'Demonstrated strong algorithmic problem-solving skills'],
-  image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b'
+  image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
+  repoLink: 'https://github.com/PrasathVedha?tab=repositories'
 }, {
   id: 3,
   title: 'Sports Website',
@@ -42,7 +44,8 @@ const projects = [{
   description: 'A dynamic sports e-commerce website showcasing diverse sporting equipment.',
   technologies: ['HTML', 'CSS'],
   points: ['Designed and developed a dynamic sports e-commerce website', 'Provided smooth navigation and interactive interface', 'Optimized for dynamic user experience', 'Incorporated responsive design for mobile compatibility'],
-  image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211'
+  image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211',
+  repoLink: 'https://github.com/PrasathVedha?tab=repositories'
 }];
 const ProjectCard = ({
   project,
@@ -146,7 +149,7 @@ const Projects = () => {
             Want to see more of my projects? Visit my GitHub for additional work.
           </p>
           <Button asChild className="bg-primary hover:bg-primary/90">
-            <a href="https://github.com/Immanual24" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+            <a href="https://github.com/PrasathVedha?tab=repositories" target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
               <svg className="mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
                 <path d="M9 18c-4.51 2-5-2-7-2" />
