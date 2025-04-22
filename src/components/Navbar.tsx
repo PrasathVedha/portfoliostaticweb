@@ -33,7 +33,6 @@ const Navbar = () => {
           Portfolio<span className="text-data-blue">.dev</span>
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           {['About', 'Projects', 'Skills', 'Experience', 'Contact'].map((item) => (
             <a
@@ -45,8 +44,9 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/prasath_cv.pdf"
-            download
+            href="https://drive.google.com/drive/folders/1dkadzBuXbYReuZ9YvPCmofJCiHFMilPt?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-data-blue hover:text-data-blue/80 transition-colors flex items-center gap-1"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -58,7 +58,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile menu button */}
         <button
           className="md:hidden text-gray-700 focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -89,7 +88,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Navigation */}
       {isMenuOpen && (
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -110,8 +108,9 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="/prasath_cv.pdf"
-              download
+              href="https://drive.google.com/drive/folders/1dkadzBuXbYReuZ9YvPCmofJCiHFMilPt?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-data-blue py-2 px-4 rounded-md hover:bg-gray-100 transition-colors flex items-center gap-2"
               onClick={() => setIsMenuOpen(false)}
             >

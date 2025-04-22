@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
@@ -30,7 +29,12 @@ const Hero = () => {
                 <a href="#contact">Contact Me</a>
               </Button>
               <Button asChild variant="outline" className="border-data-blue text-data-blue hover:bg-data-blue/10">
-                <a href="/prasath_cv.pdf" download className="flex items-center gap-2">
+                <a 
+                  href="https://drive.google.com/drive/folders/1dkadzBuXbYReuZ9YvPCmofJCiHFMilPt?usp=drive_link" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center gap-2"
+                >
                   <Download className="h-4 w-4" />
                   <span>Download CV</span>
                 </a>
