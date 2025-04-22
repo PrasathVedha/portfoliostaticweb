@@ -85,7 +85,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row md:items-center justify-between">
             <div>
               <h4 className="font-medium">Lovely Professional University, Punjab, India</h4>
-              <p className="text-gray-600">Bachelor of Technology - Information technology</p>
+              <p className="text-gray-600">Bachelor of Technology - Information Technology</p>
             </div>
             <div className="text-gray-500 mt-1 md:mt-0">
               <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
