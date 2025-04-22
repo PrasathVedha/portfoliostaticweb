@@ -47,7 +47,7 @@ const certificates = [
     title: "Data Structures and Algorithms",
     issuer: "Geek for Geek",
     date: "June 2024",
-    image: "/lovable-uploads/4bb8515d-6545-468b-a67d-343b7aa877ba.png"
+    image: "/lovable-uploads/053bc017-68d7-400d-8cfd-fdaa40e4d1fb.png"
   },
   {
     id: 3,
