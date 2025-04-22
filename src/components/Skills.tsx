@@ -59,9 +59,9 @@ const certificates = [
   {
     id: 4,
     title: "GenAI for Everyone",
-    issuer: "Coursera",
+    issuer: "Geek for Geek",
     date: "February 2024",
-    image: "/lovable-uploads/ec8cd860-5b4e-4ebc-8248-a84350888382.png"
+    image: "/lovable-uploads/d84dd78b-4831-450c-80e7-0f3736f0c686.png"
   }
 ];
 
