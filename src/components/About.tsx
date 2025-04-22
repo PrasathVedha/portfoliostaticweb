@@ -37,11 +37,7 @@ const About = () => {
               </svg>
             </div>
             <h3 className="text-xl font-medium mb-2">Who I Am</h3>
-            <p className="text-gray-600">
-              I'm a third-year student at Lovely Professional University, Punjab, 
-              pursuing a Bachelor of Technology in Information technology with a focus on data analysis.
-              I'm passionate about using data to solve real-world problems.
-            </p>
+            <p className="text-gray-600">I'm a third-year student at Lovely Professional University, Punjab, pursuing a Bachelor of Technology in Information Technology with a focus on data analysis. I'm passionate about using data to solve real-world problems.</p>
           </motion.div>
 
           <motion.div className="data-card" initial={{
