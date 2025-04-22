@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 const About = () => {
   return <section id="about" className="py-20 bg-white">
@@ -57,21 +56,19 @@ const About = () => {
           duration: 0.5,
           delay: 0.2
         }}>
-            <div className="h-12 w-12 bg-data-lightBlue/30 rounded-md flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-data-blue">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-medium mb-2">What I Do</h3>
-            <p className="text-gray-600">
-              I analyze complex datasets, create interactive visualizations, and build predictive models. 
-              I transform raw data into valuable insights that drive decision-making.
-              My approach combines technical skills with effective communication.
-            </p>
-          </motion.div>
-        </div>
+          <div className="h-12 w-12 bg-data-lightBlue/30 rounded-md flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-data-blue">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+          </div>
+          <h3 className="text-xl font-medium mb-2">What I Do</h3>
+          <p className="text-gray-600">
+            I design scalable cloud architectures, optimize costs, and secure enterprise workloads. I transform legacy systems into agile, cloud-native solutions that accelerate innovation. My approach blends technical expertise with strategic business alignment to deliver measurable results.
+          </p>
+        </motion.div>
+      </div>
 
-        <motion.div className="mt-12 p-6 bg-data-lightGray rounded-lg border border-gray-100" initial={{
+      <motion.div className="mt-12 p-6 bg-data-lightGray rounded-lg border border-gray-100" initial={{
         opacity: 0,
         y: 20
       }} whileInView={{
@@ -83,44 +80,44 @@ const About = () => {
         duration: 0.5,
         delay: 0.4
       }}>
-          <h3 className="text-xl font-medium mb-4">Education</h3>
-          <div className="space-y-4">
-            <div className="flex flex-col md:flex-row md:items-center justify-between">
-              <div>
-                <h4 className="font-medium">Lovely Professional University, Punjab, India</h4>
-                <p className="text-gray-600">Bachelor of Technology - Information technology</p>
-              </div>
-              <div className="text-gray-500 mt-1 md:mt-0">
-                <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                  2022 - Present
-                </span>
-              </div>
+        <h3 className="text-xl font-medium mb-4">Education</h3>
+        <div className="space-y-4">
+          <div className="flex flex-col md:flex-row md:items-center justify-between">
+            <div>
+              <h4 className="font-medium">Lovely Professional University, Punjab, India</h4>
+              <p className="text-gray-600">Bachelor of Technology - Information technology</p>
             </div>
-            <div className="flex flex-col md:flex-row md:items-center justify-between">
-              <div>
-                <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
-                <p className="text-gray-600">Senior secondary - Percentage: 90.4%</p>
-              </div>
-              <div className="text-gray-500 mt-1 md:mt-0">
-                <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                  2020 - 2022
-                </span>
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row md:items-center justify-between">
-              <div>
-                <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
-                <p className="text-gray-600">Secondary - Percentage: 93.4%</p>
-              </div>
-              <div className="text-gray-500 mt-1 md:mt-0">
-                <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                  2019 - 2020
-                </span>
-              </div>
+            <div className="text-gray-500 mt-1 md:mt-0">
+              <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
+                2022 - Present
+              </span>
             </div>
           </div>
-        </motion.div>
-      </div>
-    </section>;
+          <div className="flex flex-col md:flex-row md:items-center justify-between">
+            <div>
+              <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
+              <p className="text-gray-600">Senior secondary - Percentage: 90.4%</p>
+            </div>
+            <div className="text-gray-500 mt-1 md:mt-0">
+              <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
+                2020 - 2022
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row md:items-center justify-between">
+            <div>
+              <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
+              <p className="text-gray-600">Secondary - Percentage: 93.4%</p>
+            </div>
+            <div className="text-gray-500 mt-1 md:mt-0">
+              <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
+                2019 - 2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  </section>;
 };
 export default About;
