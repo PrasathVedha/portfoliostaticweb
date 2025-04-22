@@ -40,7 +40,7 @@ const certificates = [
     title: "Cyber Security and Privacy",
     issuer: "NPTEL",
     date: "October 2024",
-    image: "/lovable-uploads/0b556142-b9d1-4989-a6dd-70c027272bb7.png"
+    image: "/lovable-uploads/314201e3-095d-4950-9af5-bbe89b234e2d.png"
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const certificates = [
     title: "The Bits and Bytes of Computer Networking",
     issuer: "Coursera",
     date: "February 2024",
-    image: "/lovable-uploads/d1996e82-09a4-43ea-9dc3-dcddd12e5175.png"
+    image: "/lovable-uploads/d60dcbc7-92fc-4c41-928a-099d897d8273.png"
   },
   {
     id: 4,
