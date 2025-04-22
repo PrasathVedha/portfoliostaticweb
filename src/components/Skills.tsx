@@ -58,8 +58,8 @@ const certificates = [
   },
   {
     id: 4,
-    title: "GenAI for Everyone",
-    issuer: "Geek for Geek",
+    title: "Introduction to Large Language Model",
+    issuer: "Coursera",
     date: "February 2024",
     image: "/lovable-uploads/d84dd78b-4831-450c-80e7-0f3736f0c686.png"
   }
