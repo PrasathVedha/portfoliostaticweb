@@ -108,7 +108,7 @@ const About = () => {
             </div>
             <div className="flex flex-col md:flex-row md:items-center justify-between">
               <div>
-                <h4 className="font-medium">Shree Sai Vidya Peedhom, Kerala</h4>
+                <h4 className="font-medium">Paavai Vidhyashram CBSE school, Tamil Nadu</h4>
                 <p className="text-gray-600">Secondary - Percentage: 93.4%</p>
               </div>
               <div className="text-gray-500 mt-1 md:mt-0">
