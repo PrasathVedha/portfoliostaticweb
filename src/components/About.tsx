@@ -1,3 +1,4 @@
+
 import { motion } from 'framer-motion';
 const About = () => {
   return <section id="about" className="py-20 bg-white">
@@ -39,7 +40,7 @@ const About = () => {
             <h3 className="text-xl font-medium mb-2">Who I Am</h3>
             <p className="text-gray-600">
               I'm a third-year student at Lovely Professional University, Punjab, 
-              pursuing a Bachelor of Technology in Computer Science and Engineering with a focus on data analysis.
+              pursuing a Bachelor of Technology in Information technology with a focus on data analysis.
               I'm passionate about using data to solve real-world problems.
             </p>
           </motion.div>
@@ -87,7 +88,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between">
               <div>
                 <h4 className="font-medium">Lovely Professional University, Punjab, India</h4>
-                <p className="text-gray-600">Bachelor of Technology - Computer Science and Engineering</p>
+                <p className="text-gray-600">Bachelor of Technology - Information technology</p>
               </div>
               <div className="text-gray-500 mt-1 md:mt-0">
                 <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
