@@ -89,7 +89,7 @@ const About = () => {
             </div>
             <div className="text-gray-500 mt-1 md:mt-0">
               <span className="bg-data-blue/10 text-data-blue text-sm px-2 py-1 rounded">
-                2022 - Present
+                Since 2022
               </span>
             </div>
           </div>
