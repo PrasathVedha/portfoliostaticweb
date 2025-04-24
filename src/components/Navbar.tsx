@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +18,7 @@ const Navbar = () => {
   return <nav className={`fixed top-0 left-0 right-0 z-50 px-4 md:px-6 py-4 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-sm shadow-sm' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="text-xl font-display font-semibold text-primary">
-          Prasath<span className="text-data-blue">.Vedharethinam</span>
+          Prasath<span className="text-data-blue"> Vedharethinam</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-6">
@@ -71,5 +70,4 @@ const Navbar = () => {
         </motion.div>}
     </nav>;
 };
-
 export default Navbar;
